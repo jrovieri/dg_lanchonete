@@ -34,7 +34,7 @@ public class Main {
 		} else if (opt == 2) {
 			lanche = (Lanche) massa();
 		} else if (opt == 3) {
-			
+			lanche = (Lanche) bolo();
 		} else {
 			System.out.println("Escolha uma opção válida.");
 			System.exit(0);
@@ -46,10 +46,6 @@ public class Main {
 		System.out.println("Valor a ser pago: R$" + lanche.getPrice());
 		System.out.println("Tempo de espera: " + lanche.getDeliveryTime() + " minutos.");
 		System.out.println("Obrigado!");
-	}
-	
-	public static void printMainMenu() {
-		
 	}
 	
 	public static Sanduiche sanduiche() {
